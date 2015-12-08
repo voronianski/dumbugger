@@ -1,0 +1,15 @@
+{
+  "name": "dumbugger",
+  "version": "0.1.0",
+  "description": "Full-stack javascript debugger for smart people.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["debug", "browser", "server", "debugger", "alert"],
+  "author": "Dmitri Voronianski <dmitri.voronianski@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "opener": "^1.4.1"
+  }
+}
