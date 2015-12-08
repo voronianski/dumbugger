@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <title>Dumbugger Demo</title>
+    <style>
+    body {
+        font-family: 'Helvetica Neue', 'sans-serif';
+        padding: 30px
+    }
+    </style>
+</head>
+<body>
+    <h1>DUMBUGGER DEMO</h1>
+    <div>Error will be thrown in: <span id="counter">5</span> seconds</div>
+
+    <script src="../browser.js"></script>
+    <script>
+        (function () {
+            function counter (s, cb) {
+                var int = setInterval(function () {
+                    document.getElementById('counter').innerHTML = s;
+                    s--;
+                    if (s < 0) {
+                        clearInterval(int);
+                        cb && cb();
+                    }
+                }, 1000);
+            }
+
+            counter(4, function () {
+                throw new TypeError('Ooooops! In browser...');
+            });
+        })();
+    </script>
+</body>
+</html>

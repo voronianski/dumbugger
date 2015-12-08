@@ -8,15 +8,23 @@
 npm install dumbugger --save
 ```
 
+<img src="https://dl.dropboxusercontent.com/u/100463011/dumbugger-demo.gif" width="600" />
+
 ## Usage
+
+Include _dumbugger_ script before any of your application code.
 
 ### Node.js
 
 ```js
-require('dumbugger'); 
+require('dumbugger/server'); // for server side
 ```
 
 or
+
+```js
+require('dumbugger/browser'); // for npm powered bundles
+```
 
 ### Browser
 
