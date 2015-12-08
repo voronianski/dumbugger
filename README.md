@@ -2,7 +2,7 @@
 
 > Full-stack javascript debugger for smart people. 👻 
 > 
-> Dumbugger opens your browser tab with google query with error stack info everytime when your code throws exceptions.
+> Dumbugger opens your browser tab with google query with error stack info everytime when your code throws exception.
 
 <img src="https://dl.dropboxusercontent.com/u/100463011/dumbugger-demo.gif" width="600" />
 
