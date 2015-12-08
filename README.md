@@ -1,6 +1,6 @@
 # dumbugger
 
-> Full-stack javascript debugger for smart people.
+> Full-stack javascript debugger for smart people. 👻
 
 ## Install
 
