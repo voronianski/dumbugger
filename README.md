@@ -4,7 +4,7 @@
 > 
 > Dumbugger opens your browser tab with google query with error stack info everytime when your code throws exception.
 
-<img src="https://dl.dropboxusercontent.com/u/100463011/dumbugger-demo.gif" width="600" />
+<img src="https://user-images.githubusercontent.com/974035/36945880-a844411e-1fb4-11e8-9816-ee80e1222ea2.gif" width="600" />
 
 ## Install
 
